@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Медицинский лазер</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"> -->
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png"> -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href="css/style.min.css" rel="stylesheet" media="screen">
+
+  <script>
+    // Маркер работающего javascript
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    document.addEventListener('DOMContentLoaded', function(){
+      if (window.isMobile !== undefined) {
+        // console.log(isMobile);
+        if(isMobile.any) {
+          var rootClasses = ' is-mobile';
+          for (key in isMobile) {
+            if(typeof isMobile[key] === 'boolean' && isMobile[key] && key !== 'any') rootClasses += ' is-mobile--'+key;
+            if(typeof isMobile[key] === 'object' && key !== 'other') {
+              for (type in isMobile[key]) {
+                if(isMobile[key][type]) rootClasses += ' is-mobile--'+key+'-'+type;
+              }
+            }
+          }
+          document.documentElement.className += rootClasses;
+        }
+      }
+      else {
+        console.log('Классы для мобильных не добавлены: в сборке отсутствует isMobile.js');
+      }
+    });
+
+  </script>
+
+</head>
+
+<body>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+
+      <header class="page-header" role="banner">
+        <div class="page-header__inner">
+          <h1 class="logo">Медицинский лазер</h1>
+          <div class="page-header__bl">
+            <div class="social">
+              <a href="#">
+                <svg width="30" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#logo-whatsapp"></use></svg>
+              </a>
+              <a href="#">
+                <svg width="30" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#logo-viber"></use></svg>
+              </a>
+              <a href="#">
+                <svg width="30" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#logo-telegram"></use></svg>
+              </a>
+            </div>
+            <p>Ответим за 15 минут</p>
+          </div>
+          <div class="page-header__bl">
+            <p>г.Курск, ул. Овечкина, 1 </p>
+            <p><a href="#">Схема проезда</a></p>
+          </div>
+          <div class="page-header__bl">
+            <p><a class="phone-link" href="tel:+79611699996">+7 961 169 99 96</a></p>
+            <p><a href="#">Заказать звонок</a></p>
+          </div>
+        </div>
+      </header>
+
+
+      <main role="main">
+
+        <section class="intro">
+          <div class="intro__wrap">
+            <div class="intro__content">
+              <h1 class="intro__title">
+                Хотите выглядеть <span>моложе</span> и <span>привлекательней</span>?
+              </h1>
+              <p class="intro__text">Это возможно с помощью процедур микросекундным
+              неодимовым лазером FriendlyLight Neo</p>
+              <div class="intro__action">
+                <p class="action-text">Первая процедура со скидкой 40%</p>
+                <a href="#" class="btn btn--intro">Записаться со скидкой</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section advantages">
+          <div class="section__inner">
+            <h2 class="section__title">Преимущества неодимового лазера</h2>
+            <p class="section__title-text">Технология микросекундного лазерного воздействия <strong>Aerolase FriendlyLight</strong>,<br>
+            в отличие от аналогов, не имеет никакой реабилитации и сезонных ограничений.</p>
+            <p class="section__title-text">Аппарат не оказывает никакого термического воздействия на кожу, поэтому процедуры<br>
+            можно проводить на любом фототипе кожи, на загорелой коже, в любое время года</p>
+          </div>
+        </section>
+
+        <section class="section popular">
+          <div class="section__inner">
+            <h2 class="section__title">Популярные процедуры</h2>
+            <div class="popular__wrap">
+              <div class="popular__col">
+                <div class="popular__card">
+                  <div class="popular__card-image" style="background-image: url('img/popular-card-img-01.jpg');">
+                    <span class="popular__card-image-caption">Удаление сосудов</span>
+                  </div>
+                  <div class="popular__card-body">
+                    <p>Лазер FriendlyLight Neo рекомендован дерматологами США,
+                      Европы и России, как эффективный для пациента метод
+                      удаления сосудов </p>
+                    </div>
+                    <div class="popular__card-action">
+                      <a href="#" class="btn">Записаться и получить скидку</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular__col">
+                  <div class="popular__card">
+                    <div class="popular__card-image" style="background-image: url('img/popular-card-img-02.jpg');">
+                      <span class="popular__card-image-caption">Лечение акне</span>
+                    </div>
+                    <div class="popular__card-body">
+                      <p>Лазеры FriendlyLight Neo лишены побочного эффекта
+                        обезвоживания кожи, так как не оказывают термического
+                        воздействия на эпидермис</p>
+                    </div>
+                    <div class="popular__card-action">
+                      <a href="#" class="btn">Записаться и получить скидку</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular__col">
+                  <div class="popular__card">
+                    <div class="popular__card-image" style="background-image: url('img/popular-card-img-03.jpg');">
+                      <span class="popular__card-image-caption">Неабляционное омоложение</span>
+                    </div>
+                    <div class="popular__card-body">
+                      <p>Микросекундное омоложение FriendlyLight Neo рекомендуют
+                        ведущие мировые эксперты, голливудские звезды
+                        и глянцевые журналы</p>
+                    </div>
+                    <div class="popular__card-action">
+                      <a href="#" class="btn">Записаться и получить скидку</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular__col">
+                  <div class="popular__card">
+                    <div class="popular__card-image" style="background-image: url('img/popular-card-img-04.jpg');">
+                      <span class="popular__card-image-caption">Лазерная эпиляция</span>
+                    </div>
+                    <div class="popular__card-body">
+                      <p>На аппарате Friendly Light Neo можно проводить эпиляцию
+                        любых типов кожи, включая V и VI. Во время процедуры
+                        волос не сгорает</p>
+                    </div>
+                    <div class="popular__card-action">
+                      <a href="#" class="btn">Записаться и получить скидку</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section laser">
+          <div class="section__inner">
+            <h2 class="section__title">Процедуры проводимые лазером</h2>
+            <div class="laser__wrap">
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Удаление сосудов</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Лечение акне</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Неабляционное омоложение</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Лазерная эпиляция</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Биоревитализация</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Удаление ангиом</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Лечение розацеа</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Удаление пигментации</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Удаление тату и татуажа</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Удаление стрий</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Лечение трофических язв, пролежней и гематом</div>
+              </div>
+              <div class="laser__card">
+                <div class="laser__card-image"></div>
+                <div class="laser__card-title">Лечение грибка ногтей</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section sign-up">
+          <div class="section__inner">
+            <div class="sign-up__wrap">
+              <div class="sign-up__col">
+
+              </div>
+              <div class="sign-up__col">
+                <h2 class="section__title">Записаться на услугу</h2>
+                <p class="section__title-text">Оставьте заявку или позвоните по тел. +7 961 169 99 96 и
+                наши менеджеры проконсультруют вас или запишут на прием</p>
+                <form action="" class="sign-up__form">
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" placeholder="Имя" id="" name="">
+                    </span>
+                  </label>
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="tel" placeholder="Телефон" id="" name="">
+                    </span>
+                  </label>
+                  <div class="field-actions">
+                    <button class="btn" type="submit">Оставить заявку</button>
+                    <div class="field-checkbox">
+                      <label class="field-checkbox__name">
+                        <input class="field-checkbox__input" type="checkbox" id="" name="" checked>
+                        <span class="field-checkbox__name-text">Я согласен с условиями обработки данных</span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section video">
+          <div class="section__inner">
+            <h2 class="section__title">Видео процесса</h2>
+          </div>
+        </section>
+
+        <section class="section faq">
+          <div class="section__inner">
+            <h2 class="section__title">Частые вопросы</h2>
+          </div>
+        </section>
+
+        <section class="section reviews">
+          <div class="section__inner">
+            <h2 class="section__title">Отзывы наших клиентов</h2>
+          </div>
+        </section>
+
+        <section class="section feedback">
+          <div class="section__inner">
+            <h2 class="section__title">Остались вопросы</h2>
+            <p class="section__title-text">Оставьте заявку или позвоните по тел. +7 961 169 99 96 и наши менеджеры проконсультруют вас или запишут на прием</p>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+
+      <footer class="page-footer" role="contentinfo">
+        <div class="page-footer__top">
+          <div class="page-footer__inner">
+            <h1 class="logo">Медицинский лазер</h1>
+            <div class="page-footer__bl">
+              <div class="social">
+                <a href="#">
+                  <svg width="30" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#logo-whatsapp"></use></svg>
+                </a>
+                <a href="#">
+                  <svg width="30" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#logo-viber"></use></svg>
+                </a>
+                <a href="#">
+                  <svg width="30" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#logo-telegram"></use></svg>
+                </a>
+              </div>
+              <p>Ответим за 15 минут</p>
+            </div>
+            <div class="page-footer__bl">
+              <p>г.Курск, ул. Овечкина, 1 </p>
+              <p><a class="dashed-link" href="#">Схема проезда</a></p>
+            </div>
+            <div class="page-footer__bl">
+              <p><a class="phone-link" href="tel:+79611699996">+7 961 169 99 96</a></p>
+              <p><a href="#" class="dashed-link">Заказать звонок</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="page-footer__bottom">
+          <div class="page-footer__inner">
+            <p>Разработано в <a href="#">Showbiz</a></p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+  </div>
+  <script src="js/script.min.js"></script>
+
+</body>
+</html>

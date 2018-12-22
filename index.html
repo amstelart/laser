@@ -70,7 +70,7 @@
           </div>
           <div class="page-header__bl bl-call">
             <p><a class="phone-link" href="tel:+79611699996">+7 961 169 99 96</a></p>
-            <p><a href="#">Заказать звонок</a></p>
+            <p><a href="#modal-call" data-toggle="modal">Заказать звонок</a></p>
           </div>
         </div>
       </header>
@@ -505,6 +505,44 @@
 
     </div>
 
+  </div>
+
+  <div id="modal-call" class="modal" tabindex="-1" role="dialog">
+    <div class="modal__dialog" role="document">
+      <div class="modal__content">
+        <div class="modal__header">
+          <a href="#" class="close  modal__close" data-dismiss="modal" aria-label="Закрыть"><span></span></a>
+          <h4 class="modal__title">Заказать звонок</h4>
+          <p class="modal__text">Оставьте заявку или позвоните по тел. +7 961 169 99 96 и <br>
+          наши менеджеры проконсультруют вас или запишут на прием</p>
+        </div>
+        <div class="modal__body">
+          <form action="" class="modal__form">
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input" type="text" placeholder="Имя" id="" name="">
+              </span>
+            </label>
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input" type="tel" placeholder="Телефон" id="" name="">
+              </span>
+            </label>
+            <div class="field-actions">
+              <button class="btn" type="submit">Оставить заявку</button>
+            </div>
+            <div class="field-checkbox">
+              <label class="field-checkbox__name">
+                <input class="field-checkbox__input" type="checkbox" id="" name="" checked>
+                <span class="field-checkbox__name-text">Я согласен с условиями обработки данных</span>
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="modal__footer">
+        </div>
+      </div>
+    </div>
   </div>
   <script src="js/script.min.js"></script>
 
